@@ -1,13 +1,13 @@
 use debug::PrintTrait;
 
 fn main() {
-    let mut num: usize = 5; 
+    let mut n: usize = 5; 
 
-    if num < 0 {
+    if n < 0 {
         'No factorial for -ve numbers'.print();
     } else {
-        num.print();
-        factorial(num).print()
+        n.print();
+        factorial(:n).print()
     }
 }
 
